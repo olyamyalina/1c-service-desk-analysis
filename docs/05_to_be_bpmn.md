@@ -61,7 +61,7 @@ IT-специалист является исполнителем заявки. 
 
 ## 5. BPMN TO-BE диаграмма
 
-![BPMN TO-BE процесса обработки IT-заявок](C:\Users\User\1c-service-desk-analysis\diagrams\to_be_bpmn.svg)
+![BPMN TO-BE процесса обработки IT-заявок](../diagrams/to_be_bpmn.svg)
 
 ## 6. Основной поток процесса
 
