@@ -138,7 +138,7 @@ diagrams/er_model.drawio.svg
 В документации диаграмма вставляется следующим образом:
 
 ```md
-![ER-модель системы 1С Service Desk](C:\Users\User\1c-service-desk-analysis\diagrams\er_model.drawio.svg)
+![ER-модель системы 1С Service Desk](../diagrams/er_model.drawio.svg)
 ```
 
 ## 6. Сущности и атрибуты

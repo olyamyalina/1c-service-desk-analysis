@@ -80,7 +80,7 @@ IT-специалист получает обращение и вручную п
 
 ## 6. BPMN AS-IS диаграмма
 
-![BPMN AS-IS процесса обработки IT-заявок](C:\Users\User\1c-service-desk-analysis\diagrams\as_is_bpmn.svg)
+![BPMN AS-IS процесса обработки IT-заявок](../diagrams/as_is_bpmn.svg)
 
 ## 7. Основной поток процесса
 
