@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<SubsystemsVisibility>
+		<Subsystem name="Subsystem.SLA">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ОтветственныйЗаОборудование">false</xr:Value>
+				<xr:Value name="Role.РуководительITОтдела">false</xr:Value>
+				<xr:Value name="Role.ИсполнительЗаявок">false</xr:Value>
+				<xr:Value name="Role.ПользовательСотрудник">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваServiceDesk">false</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Администрирование">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.РуководительITОтдела">false</xr:Value>
+				<xr:Value name="Role.ИсполнительЗаявок">false</xr:Value>
+				<xr:Value name="Role.ПользовательСотрудник">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваServiceDesk">false</xr:Value>
+				<xr:Value name="Role.ОтветственныйЗаОборудование">false</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Заявки">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.БазовыеПраваServiceDesk">false</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Оборудование">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.РуководительITОтдела">false</xr:Value>
+				<xr:Value name="Role.ИсполнительЗаявок">false</xr:Value>
+				<xr:Value name="Role.ПользовательСотрудник">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваServiceDesk">false</xr:Value>
+			</Visibility>
+		</Subsystem>
+		<Subsystem name="Subsystem.Отчёты">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ОтветственныйЗаОборудование">false</xr:Value>
+				<xr:Value name="Role.ИсполнительЗаявок">false</xr:Value>
+				<xr:Value name="Role.ПользовательСотрудник">false</xr:Value>
+				<xr:Value name="Role.БазовыеПраваServiceDesk">false</xr:Value>
+			</Visibility>
+		</Subsystem>
+	</SubsystemsVisibility>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.SLA</Subsystem>
+		<Subsystem>Subsystem.Администрирование</Subsystem>
+		<Subsystem>Subsystem.Заявки</Subsystem>
+		<Subsystem>Subsystem.Оборудование</Subsystem>
+		<Subsystem>Subsystem.Отчёты</Subsystem>
+	</SubsystemsOrder>
+</CommandInterface>
