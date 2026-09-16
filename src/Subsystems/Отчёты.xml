@@ -14,8 +14,14 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
-			<Content/>
+			<Picture>
+				<xr:Ref>CommonPicture.Отчеты</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализЗаявок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.КонтрольSLA</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects/>
 	</Subsystem>
