@@ -70,7 +70,7 @@
 		<Metadata name="Configuration.ServiceDesk" id="9e7d5773-1eac-42dc-b8c4-e06e3148d244" configVersion="d4317a6a7dc2fd419403cecc45f2259500000000"/>
 		<Metadata name="Configuration.ServiceDesk.CommandInterface" id="5b7d29c6-4c8a-49d7-949b-ba57f3b43120.a" configVersion="25f660dcdb10144ea815e71d2bd65f2100000000"/>
 		<Metadata name="Configuration.ServiceDesk.ManagedApplicationModule" id="5b7d29c6-4c8a-49d7-949b-ba57f3b43120.6" configVersion="134017cf812f7f40921a5e9fcae4978d00000000"/>
-		<Metadata name="Document.ITЗаявка" id="0edf9718-0cee-47bb-b694-718bc15666b9" configVersion="aa61345c9810704894e440744cf988fd00000000">
+		<Metadata name="Document.ITЗаявка" id="0edf9718-0cee-47bb-b694-718bc15666b9" configVersion="66fff0f1e2c090469a655a3a0f684a1100000000">
 			<Metadata name="Document.ITЗаявка.Attribute.ДатаРешения" id="0d8f2743-1261-4ac1-85c7-e9da640f10f9"/>
 			<Metadata name="Document.ITЗаявка.Attribute.РезультатВыполнения" id="0fa88917-6116-4ca2-8c81-96542f2c54ef"/>
 			<Metadata name="Document.ITЗаявка.Attribute.СрокРешения" id="2def936c-d2d5-4240-9083-049acd114d48"/>
@@ -89,7 +89,7 @@
 		<Metadata name="Document.ITЗаявка.Form.ФормаДокумента.Form" id="ce91527c-3528-46d8-84a3-9d8df8b64664.0" configVersion="b2b908231845ee46b1e5d6f33ed5ca7600000000"/>
 		<Metadata name="Document.ITЗаявка.Form.ФормаСписка" id="a3581d70-9534-44a1-9994-134ab7a51a01" configVersion="9987f6383f024044b40af363b6f7b01500000000"/>
 		<Metadata name="Document.ITЗаявка.Form.ФормаСписка.Form" id="a3581d70-9534-44a1-9994-134ab7a51a01.0" configVersion="31afaaa42fd3e443b03dd84f12a6b31e00000000"/>
-		<Metadata name="Document.ITЗаявка.ObjectModule" id="0edf9718-0cee-47bb-b694-718bc15666b9.0" configVersion="504f1ac17e3caf49bd65a1031228a35800000000"/>
+		<Metadata name="Document.ITЗаявка.ObjectModule" id="0edf9718-0cee-47bb-b694-718bc15666b9.0" configVersion="062bfbd089c43a448dac4bdc68f591f700000000"/>
 		<Metadata name="Document.ЗакреплениеОборудования" id="20212242-a7c0-40a1-940b-c6f0e1a4a8e5" configVersion="203c347d9573e64cb1926e3a89b9d9a900000000">
 			<Metadata name="Document.ЗакреплениеОборудования.Attribute.Комментарий" id="0a930aa3-c309-439b-994d-c91f9b5c69f8"/>
 			<Metadata name="Document.ЗакреплениеОборудования.Attribute.Заявка" id="5767998d-73fb-4d1d-8363-c7f0837ab356"/>
@@ -158,7 +158,7 @@
 			<Metadata name="Enum.ТипыУведомлений.EnumValue.НарушениеSLA" id="de6b3e08-ef65-4d00-acb8-355a6f08f78d"/>
 			<Metadata name="Enum.ТипыУведомлений.EnumValue.ТребуетЗакрытия" id="f01a03c6-9dab-4585-a106-d781ef3b7ddc"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceDeskAPI" id="9c6b33c6-3951-4789-b62a-8d35ef830891" configVersion="7839ec515d1d7b47acc605bf73df03b700000000">
+		<Metadata name="HTTPService.ServiceDeskAPI" id="9c6b33c6-3951-4789-b62a-8d35ef830891" configVersion="4cecf4f3c46fe746b010cd8c89b0143900000000">
 			<Metadata name="HTTPService.ServiceDeskAPI.URLTemplate.Tickets.Method.POST" id="36ac8e06-af3b-4dcf-9341-a13bb8e875b3"/>
 			<Metadata name="HTTPService.ServiceDeskAPI.URLTemplate.Tickets" id="7e4608f8-e110-4e5d-8632-11192b548b3a"/>
 			<Metadata name="HTTPService.ServiceDeskAPI.URLTemplate.TicketByNumber.Method.GET" id="8a15a978-3314-49d2-a591-c2ad2c826e6e"/>
@@ -166,7 +166,7 @@
 			<Metadata name="HTTPService.ServiceDeskAPI.URLTemplate.Ping.Method.GET" id="be0113ae-be6c-4dc7-8727-b9636066747e"/>
 			<Metadata name="HTTPService.ServiceDeskAPI.URLTemplate.Ping" id="cb0244c3-833c-4ec4-945e-da3c79760e2e"/>
 		</Metadata>
-		<Metadata name="HTTPService.ServiceDeskAPI.Module" id="9c6b33c6-3951-4789-b62a-8d35ef830891.0" configVersion="57fdee0b98fd1542900148f81fc980bd00000000"/>
+		<Metadata name="HTTPService.ServiceDeskAPI.Module" id="9c6b33c6-3951-4789-b62a-8d35ef830891.0" configVersion="df264df89b52e1458582eb3106b1dcb600000000"/>
 		<Metadata name="InformationRegister.ИсторияИзмененияСтатусов" id="4a39d07e-e731-404c-9212-4633a6c9aba7" configVersion="a0a762562e2c144cbd67e70caba03a8e00000000">
 			<Metadata name="InformationRegister.ИсторияИзмененияСтатусов.Resource.СтарыйСтатус" id="0dfe90d7-04dc-4586-9de7-7b8c598c772d"/>
 			<Metadata name="InformationRegister.ИсторияИзмененияСтатусов.Attribute.Комментарий" id="1be90710-e5bd-41cb-ab17-306e3065f43d"/>
@@ -239,20 +239,20 @@
 		<Metadata name="Role.БазовыеПраваServiceDesk.Rights" id="66c06e6a-ff43-495d-b658-2f0a94255be0.0" configVersion="65a15fe0cff0f9449eb97026537f146c00000000"/>
 		<Metadata name="Role.ИсполнительЗаявок" id="82acd1c5-a9a9-4067-8544-181e74a21845" configVersion="1f086e4ba474e84f961f2cd3deaf9bbe00000000"/>
 		<Metadata name="Role.ИсполнительЗаявок.Rights" id="82acd1c5-a9a9-4067-8544-181e74a21845.0" configVersion="c06db21991664142b5d19730d153e14b00000000"/>
-		<Metadata name="Role.ОтветственныйЗаОборудование" id="7a418325-ad1e-416c-bd28-9e8558aecdf8" configVersion="1e4b52c06a3e494db381132faece190100000000"/>
-		<Metadata name="Role.ОтветственныйЗаОборудование.Rights" id="7a418325-ad1e-416c-bd28-9e8558aecdf8.0" configVersion="62e15654e7f69e46ab7948a9f6a9e15000000000"/>
-		<Metadata name="Role.ПользовательСотрудник" id="d5ac383b-75e4-42a9-ab9d-feda932219b5" configVersion="f8dd4e5383a306449aa1896655508b5300000000"/>
-		<Metadata name="Role.ПользовательСотрудник.Rights" id="d5ac383b-75e4-42a9-ab9d-feda932219b5.0" configVersion="35795691e4aa3b44b113a486c34fd4d700000000"/>
-		<Metadata name="Role.РуководительITОтдела" id="59c52104-0233-4940-b9ad-dd300b59881c" configVersion="88add14f458a0043870752299614c41700000000"/>
-		<Metadata name="Role.РуководительITОтдела.Rights" id="59c52104-0233-4940-b9ad-dd300b59881c.0" configVersion="978ca0e538f2214db13336fe48f519f500000000"/>
+		<Metadata name="Role.ОтветственныйЗаОборудование" id="7a418325-ad1e-416c-bd28-9e8558aecdf8" configVersion="c0757447563a7b43a82f950a2de135af00000000"/>
+		<Metadata name="Role.ОтветственныйЗаОборудование.Rights" id="7a418325-ad1e-416c-bd28-9e8558aecdf8.0" configVersion="e25d6bb83ea08b4da22db6ed6b1c1f5300000000"/>
+		<Metadata name="Role.ПользовательСотрудник" id="d5ac383b-75e4-42a9-ab9d-feda932219b5" configVersion="95913c65d6063945b7e7877f834486fc00000000"/>
+		<Metadata name="Role.ПользовательСотрудник.Rights" id="d5ac383b-75e4-42a9-ab9d-feda932219b5.0" configVersion="c58834d4846cf548b8887a53c02bbcfc00000000"/>
+		<Metadata name="Role.РуководительITОтдела" id="59c52104-0233-4940-b9ad-dd300b59881c" configVersion="3b26abe9190b7d40975e3c4bdfd06e2f00000000"/>
+		<Metadata name="Role.РуководительITОтдела.Rights" id="59c52104-0233-4940-b9ad-dd300b59881c.0" configVersion="50787491f93fde4ebcab15072d2c241c00000000"/>
 		<Metadata name="ScheduledJob.ПроверкаНарушенийSLA" id="0839b81e-4638-4150-bda9-14e6793ad192" configVersion="4d94e36a4476184d8fcca07e81dbe98b00000000"/>
 		<Metadata name="ScheduledJob.ПроверкаНарушенийSLA.Schedule" id="0839b81e-4638-4150-bda9-14e6793ad192.0" configVersion="1db558989cd3b3468f74ef48ad9d82d600000000"/>
-		<Metadata name="Subsystem.SLA" id="547c1317-51bd-495a-8b8d-8f3d867a2f32" configVersion="5a81c405d0308d4f83a848931f8eaa7300000000"/>
+		<Metadata name="Subsystem.SLA" id="547c1317-51bd-495a-8b8d-8f3d867a2f32" configVersion="f51411b72cef5a4d90cffa7a9a1a366100000000"/>
 		<Metadata name="Subsystem.Администрирование" id="d73780d2-01cc-44b8-8ca3-cf1992de279c" configVersion="e5f7593d4b36bb4a8adf30789b8ae98e00000000"/>
-		<Metadata name="Subsystem.Заявки" id="611a10a4-8c6f-4f3f-a0a0-b88e6d985bb7" configVersion="7dd2be283e077c48a311f61c3647d3c100000000"/>
+		<Metadata name="Subsystem.Заявки" id="611a10a4-8c6f-4f3f-a0a0-b88e6d985bb7" configVersion="548628a313725142baa76b281b8142d000000000"/>
 		<Metadata name="Subsystem.Заявки.CommandInterface" id="611a10a4-8c6f-4f3f-a0a0-b88e6d985bb7.1" configVersion="332faf1085cd444795535b759b0464b600000000"/>
 		<Metadata name="Subsystem.Оборудование" id="d38306cc-f919-4eb3-805a-42e773c17279" configVersion="75f4e426a7cb2d4b8156f4ba537a437e00000000"/>
 		<Metadata name="Subsystem.Оборудование.CommandInterface" id="d38306cc-f919-4eb3-805a-42e773c17279.1" configVersion="64994651b4a9c642a2deead23646e81e00000000"/>
-		<Metadata name="Subsystem.Отчёты" id="3cc22dc7-9f22-4039-b6ac-c6e30118bad6" configVersion="3fa6c7468c77584dbd296ba2511d744a00000000"/>
+		<Metadata name="Subsystem.Отчёты" id="3cc22dc7-9f22-4039-b6ac-c6e30118bad6" configVersion="01a146e2c525554a849d8b251236195e00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

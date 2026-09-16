@@ -19,6 +19,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.Resource.СтарыйСтатус</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ITЗаявка</name>
 		<right>
 			<name>Read</name>
@@ -68,6 +75,20 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.Attribute.Комментарий</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.Attribute.Пользователь</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.УведомленияПользователей</name>
 		<right>
 			<name>Read</name>
@@ -105,10 +126,45 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.StandardAttribute.Period</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.Заявки</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.Resource.НовыйСтатус</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -139,7 +195,25 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИсторияИзмененияСтатусов.Dimension.Заявка</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Report.АнализЗаявок</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.КонтрольSLA</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

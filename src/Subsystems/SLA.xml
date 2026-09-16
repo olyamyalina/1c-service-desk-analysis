@@ -22,7 +22,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПриоритетыЗаявок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПравилаSLA</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НарушенияSLA</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.КонтрольSLA</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
